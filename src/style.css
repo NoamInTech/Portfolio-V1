@@ -52,6 +52,11 @@ p {
   color: white;
 }
 
+.primary-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -59,6 +64,10 @@ p {
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.secondary-link:hover {
+  text-decoration: none;
 }
 
 .homepage-link {
